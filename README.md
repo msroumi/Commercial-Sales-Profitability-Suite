@@ -1,5 +1,7 @@
 # Commercial Sales Performance & Profitability Suite
 
+![Dashboard Preview](dashboard-preview.jpg)
+
 ## 📊 Executive Summary
 This project is a **senior-level commercial analysis** solution designed to go beyond basic reporting. It focuses on **Profitability, Margin Protection, and Scenario Planning** for a global retail operation.
 
