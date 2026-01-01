@@ -3,7 +3,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow)
 ![DAX](https://img.shields.io/badge/DAX-Advanced-blue)
 ![M Query](https://img.shields.io/badge/M%20Query-Data%20Engineering-lightgrey)
-![Dashboard Preview](visuals/dashboard_preview.jpg)
+![Dashboard Preview](visuals/dashboard-preview.jpg)
 
 ## 📊 Executive Summary
 This project is a **senior-level commercial analysis** solution designed to go beyond basic reporting. It focuses on **Profitability, Margin Protection, and Scenario Planning** for a global retail operation.
