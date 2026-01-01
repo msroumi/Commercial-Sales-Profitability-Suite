@@ -28,6 +28,8 @@ I engineered a **Star Schema** data model and a dynamic Power BI report to:
 ## 🛠 Technical Architecture
 
 ### 1. Data Engineering (Star Schema)
+![Data Model Schema](data-model.jpg)
+
 Transformed a flat 10,000-row `csv` file into a normalized model using **Power Query (M)** to optimize performance and data integrity.
 
 * **Fact Table:** `Fact_Sales` (Transactions)
