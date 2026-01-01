@@ -1,5 +1,8 @@
 # Commercial Sales Performance & Profitability Suite
 
+![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow)
+![DAX](https://img.shields.io/badge/DAX-Advanced-blue)
+![M Query](https://img.shields.io/badge/M%20Query-Data%20Engineering-lightgrey)
 ![Dashboard Preview](dashboard-preview.jpg)
 
 ## 📊 Executive Summary
