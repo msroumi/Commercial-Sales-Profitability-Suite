@@ -123,4 +123,4 @@ Muntasir Abu Roumi | *Senior Analytics & Planning Professional PL-300 Certified 
 
 I build data solutions that solve business problems, not just display numbers.
 
-[LinkedIn](www.linkedin.com/in/muntasir-abu-roumi)
+[LinkedIn](https://www.linkedin.com/in/muntasir-abu-roumi)
