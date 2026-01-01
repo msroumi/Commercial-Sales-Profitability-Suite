@@ -9,7 +9,6 @@
 This project is a **senior-level commercial analysis** solution designed to go beyond basic reporting. It focuses on **Profitability, Margin Protection, and Scenario Planning** for a global retail operation.
 
 Unlike standard dashboards that only track "Sales," this solution diagnoses *where* the company is losing money (Pareto Analysis) and allows stakeholders to simulate future pricing strategies (What-If Analysis).
-
 ---
 
 ## 💼 Business Case & Problem Statement
@@ -25,7 +24,26 @@ I engineered a **Star Schema** data model and a dynamic Power BI report to:
 * Identify the **top 20% of products** driving 80% of profits.
 * Monitor **Year-over-Year (YoY) Growth** with time-intelligence functions.
 * Simulate **Pricing Scenarios** to aid in Q4 budgeting strategies.
+---
 
+## 📂 Dataset
+
+This project uses a **public Superstore sales dataset** commonly used for retail analytics and profitability analysis.
+
+- **Source:** Public / Open dataset
+- **Format:** CSV
+- **Granularity:** Transaction-level sales data
+- **Records:** ~10,000 rows
+- **Main Fields:**  
+  - Order Date  
+  - Product ID / Product Name  
+  - Customer ID  
+  - Sales  
+  - Profit  
+  - Discount  
+  - Region / City / State  
+
+The raw dataset is available in the repository under name `Superstore.csv` and is intentionally kept **unaltered** to demonstrate the full data transformation and modeling process in Power BI.
 ---
 
 ## 🛠 Technical Architecture
@@ -113,14 +131,12 @@ RETURN
 
 * Geospatial Mapping: Visualizes profit distribution by State/Region.
 * Insight: Identified that while the "East" region has high volume, specific cities are operating at a negative margin due to excessive shipping costs.
-
 ---
 
 ### 3.Scenario Planning Engine
 
 * Interactive Simulation: Stakeholders can adjust the "Price Adjustment" slider.
 * Impact: A simulated 5% global price increase showed a potential $142K profit lift, helping the finance team validate 2025 targets.
-
 ---
 
 ## 👨‍💻 About Me
