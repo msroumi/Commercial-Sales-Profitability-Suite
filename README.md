@@ -3,7 +3,7 @@
 ![Power BI](https://img.shields.io/badge/Power%20BI-Desktop-yellow)
 ![DAX](https://img.shields.io/badge/DAX-Advanced-blue)
 ![M Query](https://img.shields.io/badge/M%20Query-Data%20Engineering-lightgrey)
-![Dashboard Preview](dashboard_preview.jpg)
+![Dashboard Preview](visuals/dashboard_preview.jpg)
 
 ## 📊 Executive Summary
 This project is a **senior-level commercial analysis** solution designed to go beyond basic reporting. It focuses on **Profitability, Margin Protection, and Scenario Planning** for a global retail operation.
@@ -45,14 +45,23 @@ This project uses a **public Superstore sales dataset** commonly used for retail
   - Discount  
   - Region / City / State  
 
-The raw dataset is available in the repository under name `Superstore.csv` and is intentionally kept **unaltered** to demonstrate the full data transformation and modeling process in Power BI.
+The raw dataset is available in the repository under the `/data/` folder and is intentionally kept **unaltered** to demonstrate the full data transformation and modeling process in Power BI.
+
+---
+
+## 🔄 Data Transformation (Power Query)
+
+All data cleaning, shaping, and dimensional modeling for this project were performed using **Power Query (M)**.
+
+For transparency and reproducibility, all Power Query scripts are included in the repository under the `/power_query` folder.  
+Each `.m` file represents a single query used in the Power BI model (fact and dimension tables).
 
 ---
 
 ## 🛠 Technical Architecture
 
 ### 1. Data Engineering (Star Schema)
-![Data Model Schema](data-model.jpg)
+![Data Model Schema](visuals/data-model.jpg)
 
 Transformed a flat 10,000-row `csv` file into a normalized model using **Power Query (M)** to optimize performance and data integrity.
 
