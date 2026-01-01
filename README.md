@@ -5,14 +5,14 @@
 ![M Query](https://img.shields.io/badge/M%20Query-Data%20Engineering-lightgrey)
 ![Dashboard Preview](visuals/dashboard-preview.jpg)
 
-## 📊 Executive Summary
+## Executive Summary
 This project is a **senior-level commercial analysis** solution designed to go beyond basic reporting. It focuses on **Profitability, Margin Protection, and Scenario Planning** for a global retail operation.
 
 Unlike standard dashboards that only track "Sales," this solution diagnoses *where* the company is losing money (Pareto Analysis) and allows stakeholders to simulate future pricing strategies (What-If Analysis).
 
 ---
 
-## 💼 Business Case & Problem Statement
+## Business Case & Problem Statement
 
 ### The Challenge
 The company possessed high-volume sales data but lacked visibility into **"True Profitability."** Revenue was growing, but net margins were inconsistent due to:
@@ -28,7 +28,7 @@ I engineered a **Star Schema** data model and a dynamic Power BI report to:
 
 ---
 
-## 📂 Dataset
+## Dataset
 
 This project uses a **public Superstore sales dataset** commonly used for retail analytics and profitability analysis.
 
@@ -49,7 +49,7 @@ The raw dataset is available in the repository under the `/data/` folder and is 
 
 ---
 
-## 🔄 Data Transformation (Power Query)
+## Data Transformation (Power Query)
 
 All data cleaning, shaping, and dimensional modeling for this project were performed using **Power Query (M)**.
 
@@ -58,7 +58,7 @@ Each `.m` file represents a single query used in the Power BI model (fact and di
 
 ---
 
-## 🛠 Technical Architecture
+## Technical Architecture
 
 ### 1. Data Engineering (Star Schema)
 ![Data Model Schema](visuals/data-model.jpg)
@@ -132,7 +132,7 @@ RETURN
     )
 ```
 
-## 📈 Key Insights & Dashboard Features
+## Key Insights & Dashboard Features
 
 ### 1. The Executive Pulse (KPIs)
 
@@ -153,7 +153,7 @@ RETURN
 
 ---
 
-## 👨‍💻 About Me
+## About Me
 Muntasir Abu Roumi | *Senior Analytics & Planning Professional PL-300 Certified | Ex-DHL & Umniah | Expert in Commercial Strategy & Pricing*
 
 I build data solutions that solve business problems, not just display numbers.
